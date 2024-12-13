@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineB1og</title>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <nav class="navbar fixed-top d-flex">
+        <div class="container">
+            <img src="https://picsum.photos/50" alt="logo">
+            <ul class="d-flex">
+                <a href="">
+                    <li class="nav-link">Link</li>
+                </a>
+                <a href="">
+                    <li class="nav-link">Link</li>
+                </a>
+                <a href="">
+                    <li class="nav-link">Link</li>
+                </a>
+                <a href="">
+                    <li class="nav-link">Link</li>
+                </a>
+                <a href="">
+                    <li class="nav-link">Link</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    
+    <header class="vh-100">
+        <h1>CineB1og</h1>
+    </header>
+    
+    <section class="container d-flex justify-content-around sezioneArticoli">
+        <article class="articolo">
+            <a href="https://www.rottentomatoes.com/m/black_hawk_down">
+                <img class="locandina" src="./media/bhd.jpg" alt="immagine film black hawk down">
+            </a>
+            <h3>Black Hawk Down</h3>
+            <p class="descrizione">
+                Nel 1993, un gruppo scelto di Ranger americani e soldati della Delta Force viene inviato in Somalia per una difficile missione, la Restore Hope, che ha come obiettivo la cattura di un violento signore della guerra, responsabile di aver fatto morire di fame centinaia di migliaia di Somali. La missione volge rapidamente al peggio e i soldati si ritrovano accerchiati dai nemici e costretti a lottare per la propria vita.
+            </p>
+        </article>
+        
+        <article class="articolo">
+            <a href="https://www.rottentomatoes.com/m/click">
+                <img class="locandina" src="./media/cltvcuc.jpg" alt="immagine film cambia la tua vita con un click">
+            </a>
+            <h3>Cambia la tua vita con un Click</h3>
+            <p class="descrizione">
+                Michael Newman è un architetto, ha una bellissima moglie e due splendidi figli che non riesce a vedere spesso. Si imbatte nell'eccentrico impiegato di un negozio che gli propone un telecomando speciale in grado di cambiargli la vita.
+            </p>
+        </article>
+        
+        <article class="articolo">
+            <a href="https://www.rottentomatoes.com/m/spider_man_no_way_home">
+                <img class="locandina" src="./media/smnwh.jpg" alt="immagine film spiderman">
+            </a>
+            <h3>Spider-Man <br> No Way Home
+            </h3>
+            <p class="descrizione">
+                L'identità dell'Uomo Ragno viene rivelata a tutti, e non riesce più a separare la sua vita normale dalla vita da supereroe, e quando chiede aiuto al Dottor Strange, lo costringe a scoprire cosa significa veramente essere l'Uomo Ragno.
+            </p>
+        </article>
+        
+    </section>
+    
+    <section class="lavoraConNoi">
+        <h2>Lavora con noi!</h2>
+        <form action="">
+            <div>
+                <label for="email">Indirizzo email</label>
+                <input type="mail" name="emailAddress" id="email" placeholder="cine@b1log.com">
+            </div>
+
+            <div>
+                <label for="psw">Password</label>
+                <input type="password" name="emailAddress" id="mail" placeholder="Password123!">
+            </div>
+            
+            
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Invia
+                </button>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title fs-5" id="staticBackdropLabel">Messaggio inviato</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Grazie per averci contattati!
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+                            <!-- <button type="button" class="btn btn-primary">Chiudi</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>P. IVA: 122376748354</p>
+        <p>@Copyright: MikEngineer 2024</p>
+        <p>
+            <ul class="linkList">
+                <a href="" class="linkSocial">
+                    <li>
+                        <i class="bi bi-whatsapp"></i> Whatsapp
+                    </li>
+                </a>
+
+                <a href="" class="linkSocial">
+                    <li>
+                        <i class="bi bi-instagram"></i> Instagram
+                    </li>
+                </a>
+
+                <a href="" class="linkSocial">
+                    <li>
+                        <i class="bi bi-linkedin"></i> LinkedIn
+                    </li>
+                </a>
+            </ul>
+        </p>
+
+    </footer>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
